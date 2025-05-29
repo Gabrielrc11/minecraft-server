@@ -1,0 +1,15 @@
+# Pasta data que contém arquivos do servidor Minecraft
+/data/
+
+# Logs
+*.log
+*.log.gz
+
+# Arquivos de backup
+*.bak
+*.old
+*_old
+
+# Outros arquivos que geralmente são ignorados
+.DS_Store
+Thumbs.db
