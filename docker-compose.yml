@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  minecraft:
+    image: itzg/minecraft-server
+    container_name: minecraft-server
+    ports:
+      - "25565:25565" # Porta padrão do Minecraft
+    environment:
+      EULA: "TRUE" # Você precisa aceitar o EULA da Mojang
+      MEMORY: "2G" # Aloque memória conforme sua máquina
+      VERSION: "1.21.5" # Substitua pela versão desejada
+      ONLINE_MODE: "FALSE"  # Isso permite conexões de clientes não autenticados
+      DIFFICULTY: "hard"
+    volumes:
+      - ./data:/data
+    restart: unless-stopped
