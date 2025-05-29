@@ -23,7 +23,7 @@ O servidor está configurado no arquivo `docker-compose.yml` com as seguintes es
 ### 1. Clone este repositório ou baixe os arquivos
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/Gabrielrc11/minecraft-server.git
 cd minecraft-server
 ```
 
